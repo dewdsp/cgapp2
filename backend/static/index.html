@@ -68,7 +68,7 @@
     <!-- Scripts -->
     <script>
       // Fetch data from /api/docs
-      fetch("/api/docs")
+      fetch("/v1/api/docs")
         .then((response) => response.json()) // read response as JSON
         .catch((error) => console.log(error)) // catch errors
         .then((docs) => createList(".list", docs.results));

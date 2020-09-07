@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/dewdsp/cgapp2/pkg/apiserver"
+	"github.com/dewdsp/cgapp2/backend/pkg/apiserver"
 )
 
 func main() {
